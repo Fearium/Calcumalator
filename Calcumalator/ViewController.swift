@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    //Handles button ALL button taps/presses and includes some error handling
     @IBAction func handleButtonPress(_ sender: UIButton) {
         if canClear {
             resultLabel.text = ""
@@ -79,7 +80,7 @@ class ViewController: UIViewController {
         }
     }
     
-    
+    // Main function of math calculations
     func calculate() -> Double {
         let firstNumber = Double(firstNumberText)!
         let secondNumber = Double(secondNumberText)!
