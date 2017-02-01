@@ -52,6 +52,18 @@ class ViewController: UIViewController {
                 let result = calculate()
                 resultLabel.text = "\(result)"
                 break
+            case "AC":
+                isFirstNumber = true
+                hasOp = false
+                canClear = true
+                resultLabel.text = "0"
+                break
+            case "C":
+                isFirstNumber = true
+                hasOp = false
+                canClear = true
+                resultLabel.text = "0"
+                break
             default:
                 if isFirstNumber {
                     firstNumberText = "\(firstNumberText)\(text)"
