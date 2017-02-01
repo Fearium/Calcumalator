@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -33,6 +33,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="AC"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LXi-He-mw8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeD-rJ-d5k">
                                 <rect key="frame" x="100" y="206" width="92" height="98"/>
@@ -40,6 +43,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YPq-P9-uc5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fr-jG-8Vx">
                                 <rect key="frame" x="300" y="206" width="114" height="98"/>
@@ -51,6 +57,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0GJ-2p-ZzH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dq7-0k-sSJ">
                                 <rect key="frame" x="0.0" y="312" width="92" height="98"/>
@@ -58,6 +67,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZF-cy-Tx5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzb-fP-d4r">
                                 <rect key="frame" x="100" y="312" width="92" height="98"/>
@@ -65,6 +77,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ump-1H-StG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLk-9F-zvB">
                                 <rect key="frame" x="200" y="312" width="92" height="98"/>
@@ -72,6 +87,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeU-fl-NIv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGG-85-FUJ">
                                 <rect key="frame" x="300" y="312" width="114" height="98"/>
@@ -79,6 +97,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="*"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2eM-IF-QqM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZxL-vi-UyK">
                                 <rect key="frame" x="0.0" y="418" width="92" height="98"/>
@@ -86,6 +107,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y03-Nc-AgI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hQ-Er-adf">
                                 <rect key="frame" x="100" y="418" width="92" height="98"/>
@@ -93,6 +117,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7mK-Bx-TSa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaF-cR-eDD">
                                 <rect key="frame" x="200" y="418" width="92" height="98"/>
@@ -100,6 +127,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBP-PJ-pCS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkn-HF-ynM">
                                 <rect key="frame" x="300" y="418" width="114" height="98"/>
@@ -107,6 +137,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qys-0h-qtf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoD-yu-r3G">
                                 <rect key="frame" x="0.0" y="524" width="92" height="98"/>
@@ -114,6 +147,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wiR-Ep-zd4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hD9-MR-ODm">
                                 <rect key="frame" x="100" y="524" width="92" height="98"/>
@@ -121,6 +157,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qbx-ZF-HoH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clI-MI-8I6">
                                 <rect key="frame" x="200" y="524" width="92" height="99"/>
@@ -128,6 +167,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WgA-8G-igZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gr-yN-b5w">
                                 <rect key="frame" x="300" y="524" width="114" height="98"/>
@@ -135,6 +177,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdH-ls-f4l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQt-0P-SD3">
                                 <rect key="frame" x="0.0" y="630" width="192" height="106"/>
@@ -142,6 +187,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="auY-me-ARc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glZ-PN-k3g">
                                 <rect key="frame" x="200" y="630" width="92" height="106"/>
@@ -149,6 +197,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c3M-LJ-FnM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiB-Xc-LpX">
                                 <rect key="frame" x="200" y="206" width="92" height="98"/>
@@ -156,6 +207,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Del"/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JO2-KD-5yi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wig-2s-9D8">
                                 <rect key="frame" x="300" y="630" width="114" height="106"/>
@@ -163,6 +217,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05I-lY-9VY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -278,6 +335,9 @@
                             <constraint firstItem="hGG-85-FUJ" firstAttribute="leading" secondItem="nLk-9F-zvB" secondAttribute="trailing" constant="8" id="zjW-fG-zO5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="yWh-MX-Lzi" id="rJS-jE-7B0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
